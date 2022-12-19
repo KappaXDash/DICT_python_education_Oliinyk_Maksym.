@@ -1,9 +1,9 @@
 import random
 
-
+words = ['python', 'java', 'javascript', 'php']
 def game():
     print("HANGMAN""\nThe game will be available soon.")
-    words = ['python', 'java', 'javascript', 'php']
+
 
     picked = random.choice(words)
 
